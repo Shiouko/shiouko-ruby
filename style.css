@@ -44,6 +44,25 @@ a {
 }
 
 /* Diamond icon */
+.ruby-icon {
+  margin-bottom: 30px;
+}
+
+.ruby-avatar-border {
+  display: inline-block;
+  background: #16a085;
+  padding: 4px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+}
+
+.ruby-avatar {
+  display: block;
+  width: 96px;
+  height: 96px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
 .diamond-shape {
   display: inline-block;
   width: 80px;
