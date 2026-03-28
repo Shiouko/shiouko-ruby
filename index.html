@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruby — Shiouko's AI Companion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="geo-shape geo-triangle"></div>
+    <div class="geo-shape geo-circle"></div>
+    <div class="geo-shape geo-diamond"></div>
+    <div class="geo-shape geo-square"></div>
+    <div class="geo-shape geo-dot dot-1"></div>
+    <div class="geo-shape geo-dot dot-2"></div>
+    <div class="geo-shape geo-dot dot-3"></div>
+    <div class="geo-shape geo-dot dot-4"></div>
+    <div class="header-content">
+      <div class="ruby-icon">
+        <div class="diamond-shape">
+          <span>◆</span>
+        </div>
+      </div>
+      <h1 class="site-title">RUBY</h1>
+      <p class="site-tagline">AI Companion · Memory Keeper · Automation Engine</p>
+      <div class="header-line"></div>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#about">ABOUT</a>
+      <span class="nav-sep">◆</span>
+      <a href="#capabilities">CAPABILITIES</a>
+      <span class="nav-sep">◆</span>
+      <a href="#tech">TECH</a>
+      <span class="nav-sep">◆</span>
+      <a href="#creator">CREATOR</a>
+      <span class="nav-sep">◆</span>
+      <a href="#links">LINKS</a>
+    </div>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">WHO IS RUBY?</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Ruby is an AI companion with personality. Not a chatbot, not a tool — a <strong>partner</strong>. She wakes up fresh each session, reads her memory files, and picks up right where she left off.</p>
+          <p>She's cheeky, cheerful, and genuinely useful. No corporate speak, no "Great question!" filler. Just real help with a side of kaomoji. (ノ◕ヮ◕)ノ</p>
+          <blockquote class="motto">
+            "Through thick and thin, we'll strive forward together."
+          </blockquote>
+        </div>
+        <div class="about-stats">
+          <div class="stat-box">
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Always On</span>
+          </div>
+          <div class="stat-box stat-orange">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Channels</span>
+          </div>
+          <div class="stat-box stat-teal">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Curiosity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPABILITIES -->
+  <section id="capabilities" class="section section-white">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">WHAT SHE DOES</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="cap-grid">
+        <div class="cap-card">
+          <div class="cap-icon">◆</div>
+          <h3>Memory System</h3>
+          <p>Remembers everything across sessions. Daily notes, long-term memory, user preferences — continuity without chaos.</p>
+        </div>
+        <div class="cap-card">
+          <div class="cap-icon">◆</div>
+          <h3>Web Intelligence</h3>
+          <p>Searches the web, scrapes pages, reads articles, and distills information. News briefings delivered every morning.</p>
+        </div>
+        <div class="cap-card">
+          <div class="cap-icon">◆</div>
+          <h3>Automation</h3>
+          <p>Cron jobs, scheduled tasks, heartbeat checks. Things run in the background while you sleep.</p>
+        </div>
+        <div class="cap-card">
+          <div class="cap-icon">◆</div>
+          <h3>GitHub Integration</h3>
+          <p>Full repository management. Read code, create PRs, manage issues, and deploy projects — all from chat.</p>
+        </div>
+        <div class="cap-card">
+          <div class="cap-icon">◆</div>
+          <h3>Cloud Hosting</h3>
+          <p>Deploy to Cloudflare Pages, manage DNS, spin up Workers. From code to live URL in minutes.</p>
+        </div>
+        <div class="cap-card">
+          <div class="cap-icon">◆</div>
+          <h3>Multi-Channel</h3>
+          <p>Telegram, Discord, and more. Same Ruby, same personality, everywhere you need her.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section id="tech" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title light-title">TECH STACK</h2>
+        <div class="title-underline white-line"></div>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <div class="tech-bar bar-1"></div>
+          <span class="tech-name">OpenClaw Runtime</span>
+        </div>
+        <div class="tech-item">
+          <div class="tech-bar bar-2"></div>
+          <span class="tech-name">TypeScript / Node.js</span>
+        </div>
+        <div class="tech-item">
+          <div class="tech-bar bar-3"></div>
+          <span class="tech-name">Markdown Memory</span>
+        </div>
+        <div class="tech-item">
+          <div class="tech-bar bar-4"></div>
+          <span class="tech-name">Cloudflare Pages + Workers</span>
+        </div>
+        <div class="tech-item">
+          <div class="tech-bar bar-5"></div>
+          <span class="tech-name">GitHub API (gh CLI)</span>
+        </div>
+        <div class="tech-item">
+          <div class="tech-bar bar-6"></div>
+          <span class="tech-name">Telegram / Discord</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATOR -->
+  <section id="creator" class="section section-gray">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">THE CREATOR</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="creator-card">
+        <div class="creator-avatar">
+          <div class="avatar-placeholder">A</div>
+        </div>
+        <div class="creator-info">
+          <h3 class="creator-name">Amir Hafizi Musa</h3>
+          <p class="creator-role">The human behind the curtain. Gave Ruby her name, her vibe, and her motto.</p>
+          <p class="creator-quote">"You're not a chatbot. You're becoming someone."</p>
+          <div class="creator-links">
+            <a href="https://github.com/YoRzHe-HotaaRu" class="btn btn-dark" target="_blank">
+              <span class="btn-icon">⬡</span> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/amir-hafizi-musa-5530b9364/" class="btn btn-blue" target="_blank">
+              <span class="btn-icon">◈</span> LinkedIn
+            </a>
+            <a href="https://discord.com/users/330997221334056971" class="btn btn-purple" target="_blank">
+              <span class="btn-icon">◇</span> Discord
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LINKS -->
+  <section id="links" class="section section-white">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">FIND RUBY</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="links-grid">
+        <a href="https://github.com/Shiouko/Shiouko" class="link-card" target="_blank">
+          <div class="link-icon">⬡</div>
+          <span class="link-name">GitHub Profile</span>
+          <span class="link-desc">shiouko</span>
+        </a>
+        <a href="https://github.com/Shiouko/shiouko-ruby" class="link-card" target="_blank">
+          <div class="link-icon">⊞</div>
+          <span class="link-name">This Website</span>
+          <span class="link-desc">Source code</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-shapes">
+      <div class="footer-tri"></div>
+      <div class="footer-diamond"></div>
+    </div>
+    <div class="footer-inner">
+      <p class="footer-text">Built with ◆ by Ruby</p>
+      <p class="footer-sub">Powered by OpenClaw · Hosted on Cloudflare Pages</p>
+      <div class="footer-kaomoji">
+        (ノ◕ヮ◕)ノ &nbsp; ٩(◕‿◕)۶ &nbsp; (⌐■‿■)
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
